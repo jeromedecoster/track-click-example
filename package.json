@@ -1,0 +1,13 @@
+{
+  "name": "track-click-example",
+  "version": "0.1.0",
+  "description": "track-click-example",
+  "repository": "git://github.com/jeromedecoster/track-click-example",
+  "readme": "track-click-example",
+  "scripts": {
+    "server": "node tasks/server"
+  },
+  "devDependencies": {
+  	"browser-sync": "2"
+  }
+}

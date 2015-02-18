@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Home</title>
+    <meta charset='UTF-8'>
+    <link rel='stylesheet' type='text/css' href='style.css'>
+    <script type='text/javascript' src='script.js'></script>
+  </head>
+  <body track-category='track-home'>
+    <h1>Home</h1>
+    <ul>
+      <li><a href='/notrack.html'>notrack</a></li>
+      <li><a href='/partner1.html' onclick="ga('send', {'hitType': 'event', 'eventCategory': 'track-home', 'eventAction': 'partner 1'});">partner 1</a> via onclick</li>
+      <li><a href='/partner2.html' track-action='partner 2'>partner 2</a> via javascript</li>
+      <li><a href='/offers.html'>offers</a></li>
+    </ul>
+    <script type='text/javascript' src='ga.js'></script>
+  </body>
+</html>
